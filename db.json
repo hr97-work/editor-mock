@@ -1,0 +1,64 @@
+{
+  "results": [
+    {
+      "id": "1",
+      "language": "javascript",
+      "code": "console.log('HelloWorld');",
+      "output": "HelloWorld"
+    },
+    {
+      "id": "10",
+      "language": "javascript",
+      "code": "console.log('Hello World');",
+      "output": "Hello World"
+    },
+    {
+      "id": "2",
+      "language": "javascript",
+      "code": "letsum=2+3;console.log(sum);",
+      "output": "5"
+    },
+    {
+      "id": "3",
+      "language": "javascript",
+      "code": "functiongreet(name){return`Hello,${name}!`;}console.log(greet('Alice'));",
+      "output": "Hello, Alice!"
+    },
+    {
+      "id": "4",
+      "language": "python",
+      "code": "print('Hello World')",
+      "output": "Hello World"
+    },
+    {
+      "id": "5",
+      "language": "python",
+      "code": "sum=2+3print(sum)",
+      "output": "5"
+    },
+    {
+      "id": "6",
+      "language": "python",
+      "code": "defgreet(name):returnf'Hello, {name}!'print(greet('Alice'))",
+      "output": "Hello, Alice!"
+    },
+    {
+      "id": "7",
+      "language": "go",
+      "code": "packagemainimport\"fmt\"funcmain(){fmt.Println(\"Hello World\")}",
+      "output": "Hello World"
+    },
+    {
+      "id": "8",
+      "language": "go",
+      "code": "packagemainimport\"fmt\"funcmain(){sum:=2+3fmt.Println(sum)}",
+      "output": "5"
+    },
+    {
+      "id": "9",
+      "language": "go",
+      "code": "packagemainimport\"fmt\"funcgreet(namestring)string{returnfmt.Sprintf(\"Hello, %s!\",name)}funcmain(){fmt.Println(greet(\"Alice\"))}",
+      "output": "Hello, Alice!"
+    }
+  ]
+}
